@@ -201,7 +201,7 @@
 .sub-header5{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/fcbayernfans.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/211023_Fans_IMA.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -326,31 +326,8 @@ transition: box-shadow 0.3s ease;
   
 
 
-  @media (max-width: 700px) {
-    /* styles for screens with a width of 700px or less go here */
-    .nav-links {
-      /* hide the navigation links by default on small screens */
-      display: none;
-    }
-    .fa-bars {
-      /* show the hamburger menu icon on small screens */
-      display: block;
-    }
-    .nav-links.active {
-      /* show the navigation links when the hamburger menu is clicked */
-      display: block;
-    }
-    .nav-links ul {
-      /* make the navigation links appear in a vertical list on small screens */
-      flex-direction: column;
-    }
-    .tickets {
-      /* reduce the width of the tickets section on small screens */
-      width: 90%;
-    }
-    .tickets-table {
-      /* make the table scrollable on small screens */
-      overflow-x: scroll;
-    }
+@media (max-width: 700px) {
+  .tickets {
+    width: 90%;
   }
-  
+}
